@@ -29,13 +29,13 @@ def mengetik(s):
         sys.stdout.flush()
 #kecepatan mengetik
         time.sleep(random.random() * 0.2)
-{N};mengetik('                         SELAMAT DATANG PARA PECUNDANG');os.system('clear')
+{N};mengetik('welcome');os.system('clear')
 #lahha
 class convert:
 
   def __init__(self):
     print(f"""{banner}
-            {H}           https://github.com/iver-X{B}
+            {H}           https://github.com/Rudal-XD{B}
 ㅤㅤㅤㅤㅤ==================================================
 {HIJAU}ㅤㅤㅤㅤㅤ[•]{K}1.{J} Mendapatkan token EAAIㅤㅤㅤㅤㅤㅤㅤ
 {HIJAU}ㅤㅤㅤㅤㅤ[•]{K}2.{K} Dapatkan token EAABㅤㅤㅤㅤㅤㅤㅤㅤㅤ
