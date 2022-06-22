@@ -21,6 +21,7 @@ banner = (f"""
 """)
 # Convert Cookie Ke Token
 import random
+{H}
 import sys
 import time
 def mengetik(s):
