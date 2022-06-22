@@ -29,8 +29,8 @@ def mengetik(s):
         sys.stdout.write(c)
         sys.stdout.flush()
 #kecepatan mengetik
-        time.sleep(random.random() * 1)
-mengetik('welcome');os.system('clear')
+        time.sleep(random.random() * 1,3)
+mengetik('             welcome');os.system('clear')
 #lahha
 class convert:
 
