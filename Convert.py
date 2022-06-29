@@ -131,4 +131,4 @@ class convert:
 
 
 if __name__=='__main__':
-  os.system('git pull');convert()
+  os.system('xdg-open http://localhost:2435/storage/emulated/0/Download/belajar.html')
