@@ -13,7 +13,7 @@ N = ('\x1b[0m')
 J = ('\033[38;2;255;127;0;1m')
 
 #banner
-os.system('clear')
+os.system('git pull')
 banner = (f"""
 {O}ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ╔═╗┌─┐┌┐┌┬  ┬┌─┐┬─┐┌┬┐
 {O}ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ║  │ ││││└┐┌┘├┤ ├┬┘ │
@@ -119,4 +119,4 @@ class convert:
 
 
 if __name__=='__main__':
-  os.system('git pull');convert()
+  os.system('clear');convert()
