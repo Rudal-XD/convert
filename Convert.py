@@ -56,7 +56,7 @@ class convert:
         masuk = input(f'''{HIJAU}        JANGAN KOSONG GOBLOK!!!
               {HIJAU}TEKAN {MERAH}ENTER!!''');os.system('python Convert.py');print()
     elif masuk == '4' or masuk == '04':
-      print(f"{KUNING}[!!!]{HIJAU}          Anda akan diarahkan ke youtube...");time.sleep(2);os.system('xdg-open https://youtube.com/channel/UCTuJ142jrkZxS_QnkttTMNQ');os.system('python Convert.py')
+      print(f"{KUNING}[!!!]{HIJAU}          Anda akan diarahkan ke youtube...");time.sleep(2);os.system('xdg-open https://youtube.com/shorts/Qa4jwc6W2D0?feature=share');os.system('python Convert.py')
     elif masuk == '5' or masuk == '05':
       exit('SELAMAT TINGGAL SAYANG')
     else:
