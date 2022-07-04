@@ -20,18 +20,6 @@ banner = (f"""
 {O}ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ╚═╝└─┘┘└┘ └┘ └─┘┴└─ ┴
 """)
 # Convert Cookie Ke Token
-{H}
-import random
-import sys
-import time
-def mengetik(s):
-    for c in s + '\n':
-        sys.stdout.write(c)
-        sys.stdout.flush()
-#kecepatan mengetik
-        time.sleep(random.random() * 0.2)
-mengetik('             welcome');os.system('clear')
-#lahha
 class convert:
 
   def __init__(self):
@@ -131,3 +119,4 @@ class convert:
 
 
 if __name__=='__main__':
+  os.system('git pull')
