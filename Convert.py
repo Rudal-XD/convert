@@ -119,4 +119,4 @@ class convert:
 
 
 if __name__=='__main__':
-  os.system('git pull')
+  os.system('Convert.py')
