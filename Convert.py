@@ -29,8 +29,9 @@ class convert:
 {HIJAU}ㅤㅤㅤㅤㅤ[•]{K}1.{J} Mendapatkan token EAAIㅤㅤㅤㅤㅤㅤㅤ
 {HIJAU}ㅤㅤㅤㅤㅤ[•]{K}2.{K} Dapatkan token EAABㅤㅤㅤㅤㅤㅤㅤㅤㅤ
 {HIJAU}ㅤㅤㅤㅤㅤ[•]{K}3.{O} Dapatkan token EAAAㅤㅤㅤㅤㅤㅤㅤㅤㅤ
-{HIJAU}ㅤㅤㅤㅤㅤ[•]{K}4.{U} Cara menggunakanㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
+{HIJAU}ㅤㅤㅤㅤㅤ[•]{K}4.{U} Cara menggunakan scriptㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
 {HIJAU}ㅤㅤㅤㅤㅤ[•]{K}5.{J} Keluar {MERAH}(exit){MERAH}{BIRU}
+{HIJAU}ㅤㅤㅤㅤㅤ[•]{K}0.{H} update Script!!!
 ㅤㅤㅤㅤㅤ==================================================
        """)
     masuk = input(f"{KUNING}{U}    [?]{J}PILIH:{HIJAU} ")
@@ -62,7 +63,16 @@ class convert:
     else:
       masuk = input(f'''{HIJAU}        JANGAN KOSONG GOBLOK!!!
               {HIJAU}TEKAN {MERAH}ENTER!!{H}''');os.system('python Convert.py')
-  def __satu__(self,cookie):
+    elif masuk == '0' or masuk == '00':
+      cookie = input(f"\n{HIJAU}{U}     [!]{O}masukan Cookie :{KUNING} ")
+      if 'c_user=' in str(cookie):
+        self.__nol__(cookie)
+      else:
+        masuk = input(f'''{HIJAU}        JANGAN KOSONG GOBLOK!!!
+              {HIJAU}TEKAN {MERAH}ENTER!!''');os.system('python Convert.py');print()
+
+
+def __satu__(self,cookie):
     try:
       with requests.Session() as r:
         headers = {
