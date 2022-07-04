@@ -63,10 +63,6 @@ class convert:
     else:
       masuk = input(f'''{HIJAU}        JANGAN KOSONG GOBLOK!!!
               {HIJAU}TEKAN {MERAH}ENTER!!{H}''');os.system('python Convert.py')
-    elif masuk == '0' or masuk == '00':
-      print(f"{KUNING}[!!!]{HIJAU}          LOADING...");time.sleep(2);os.system('git pull');os.system('python Convert.py')
-    else:
-       masuk = input ('''{H}Jangan Kosong!!!''');os.system('python Convert.py')
   def __satu__(self,cookie):
     try:
       with requests.Session() as r:
