@@ -13,7 +13,6 @@ N = ('\x1b[0m')
 J = ('\033[38;2;255;127;0;1m')
 
 #banner
-os.system('clear')
 banner = (f"""
 {O}ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ╔═╗┌─┐┌┐┌┬  ┬┌─┐┬─┐┌┬┐
 {O}ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ║  │ ││││└┐┌┘├┤ ├┬┘ │
@@ -119,4 +118,4 @@ class convert:
 
 
 if __name__=='__main__':
-  os.system('Convert.py')
+  os.system('git pull')
