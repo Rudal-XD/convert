@@ -130,5 +130,4 @@ class convert:
     
 
 
-if __name__=='__main__':
-  os.system('xdg-open http://localhost:2435/storage/emulated/0/Download/belajar.html')
+if __name__=='__main__':()
