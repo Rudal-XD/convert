@@ -33,7 +33,7 @@ class convert:
       if 'c_user=' in str(cookie):
         self.__satu__(cookie)
       else:
-        masuk = input(f"{MERAH}!.{MERAH} masukan input yg benar");convert()
+        (f"{MERAH}!.{MERAH} masukan input yg benar")
         os.system('git pull');convert()
     elif masuk == '2' or masuk == '02':
       cookie = input(f"\n{HIJAU}?.{PUTIH} Cookie :{KUNING} ")
@@ -42,7 +42,7 @@ class convert:
       else:
         exit(f"{MERAH}!.{MERAH} Periksa cookienya")
     elif masuk == '3' or masuk == '03':
-      print(f"{KUNING}?.{PUTIH} Anda akan diarahkan ke youtube...");time.sleep(3);os.system('xdg-open https://youtu.be/Xv0plMtS4Cw');exit()
+      print(f"{KUNING}?.{PUTIH} Anda akan diarahkan ke youtube...");time.sleep(3);os.system('xdg-open https://youtu.be/Xv0plMtS4Cw');convert()
     elif masuk == '4' or masuk == '04':
       exit()
     else:
