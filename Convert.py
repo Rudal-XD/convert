@@ -33,8 +33,7 @@ class convert:
       if 'c_user=' in str(cookie):
         self.__satu__(cookie)
       else:
-        masuk = input(f"{MERAH}!.{MERAH} Periksa cookienya")
-        sleep(1)
+        masuk = input(f"{MERAH}!.{MERAH} masukan input yg benar");convert()
         os.system('git pull');convert()
     elif masuk == '2' or masuk == '02':
       cookie = input(f"\n{HIJAU}?.{PUTIH} Cookie :{KUNING} ")
