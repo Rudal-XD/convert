@@ -34,7 +34,7 @@ class convert:
         self.__satu__(cookie)
       else:
         masuk = input(f"{MERAH}!.{MERAH} Periksa cookienya")
-        os.system();convert()
+        os.system('git pull');convert()
     elif masuk == '2' or masuk == '02':
       cookie = input(f"\n{HIJAU}?.{PUTIH} Cookie :{KUNING} ")
       if 'c_user=' in str(cookie):
@@ -46,7 +46,7 @@ class convert:
     elif masuk == '4' or masuk == '04':
       exit()
     else:
-      os.system();convert()
+      os.system('git pull');convert()
   def __satu__(self,cookie):
     try:
       with requests.Session() as r:
