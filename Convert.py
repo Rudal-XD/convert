@@ -45,7 +45,6 @@ class convert:
     elif masuk == '4' or masuk == '04':
       exit()
     else:
-      exit(f"{MERAH}!.{MERAH} Wrong input")
     sleep (1)
     os.system('git pull');convert()
   def __satu__(self,cookie):
