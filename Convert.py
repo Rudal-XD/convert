@@ -22,7 +22,7 @@ class convert:
   def __init__(self):
     os.system('clear')
     print(f"""{banner}
-{HIJAU}1.{PUTIH} Mendapatkan token EAAI
+{HIJAU}1.{O} Mendapatkan token EAAI
 {HIJAU}2.{PUTIH} Dapatkan token EAAB
 {HIJAU}3.{PUTIH} Cara menggunakan
 {HIJAU}4.{PUTIH} Keluar {HIJAU}({MERAH}exit{HIJAU}){MERAH}
